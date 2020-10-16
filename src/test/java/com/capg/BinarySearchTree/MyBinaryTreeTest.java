@@ -37,21 +37,21 @@ class MyBinaryTreeTest {
 	}
 	
 	@Test
-	void whenAllNodesAdded_shouldReturn_itsSize() {
-		MyBinaryTree<Integer> bstbinaryTree = new MyBinaryTree<>();
-		bstbinaryTree.add(56);
-		bstbinaryTree.add(30);
-		bstbinaryTree.add(70);
-		bstbinaryTree.add(22);
-		bstbinaryTree.add(40);
-		bstbinaryTree.add(11);
-		bstbinaryTree.add(3);
-		bstbinaryTree.add(16);
-		bstbinaryTree.add(60);
-		bstbinaryTree.add(95);
-		bstbinaryTree.add(65);
-		bstbinaryTree.add(63);
-		bstbinaryTree.add(67);
-		assertEquals(13, bstbinaryTree.size());
+	void whenAllNodesAdded_shouldReturnSize() {
+		MyBinaryTree<Integer> binaryTree = new MyBinaryTree<>();
+		binaryTree.add(56);
+		binaryTree.add(30);
+		binaryTree.add(70);
+		binaryTree.add(22);
+		binaryTree.add(40);
+		binaryTree.add(11);
+		binaryTree.add(3);
+		binaryTree.add(16);
+		binaryTree.add(60);
+		binaryTree.add(95);
+		binaryTree.add(65);
+		binaryTree.add(63);
+		binaryTree.add(67);
+		assertEquals(13, binaryTree.size());
 	}
 }
